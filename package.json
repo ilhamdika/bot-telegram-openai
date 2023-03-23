@@ -1,0 +1,23 @@
+{
+  "name": "bot-telegram-nodejs-openai",
+  "version": "1.0.0",
+  "description": "NodeJs AI bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bot.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "ai",
+    "telegram"
+  ],
+  "author": "Ilham Dika",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1"
+  }
+}
